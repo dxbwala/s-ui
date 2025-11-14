@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5.0.0
-        with:
+        uses: actions/checkout@v5.0.0 
       - name: Set up Node.js
         uses: actions/setup-node@v5
         with:
